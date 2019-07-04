@@ -13,11 +13,11 @@
 			</li>
 			--}}
 
-			<li class=" nav-item"><a href="/"><i class="la la-calendar"></i><span class="menu-title" data-i18n="nav.dash.settings">Mis Cuotas</span></a>
+			<li class=" nav-item"><a href="/"><i class="la la-calendar"></i><span class="menu-title" data-i18n="nav.dash.settings">Mis Donaciones</span></a>
 				<ul class="menu-content">
 					<li class="{{ Request::is( 'dashboard/payments') ? 'active' : '' }} nav-item">
 						<a href="/dashboard/payments">
-							<span class="menu-title" data-i18n="nav.dash.main">Pagar</span>
+							<span class="menu-title" data-i18n="nav.dash.main">Nueva Donación</span>
 						</a>
 					</li>
 
