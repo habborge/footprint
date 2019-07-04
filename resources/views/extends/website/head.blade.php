@@ -12,7 +12,7 @@
         <!-- meta character set -->
         <meta charset="UTF-8">
         <!-- Site Title -->
-        <title>Animal Shelter</title>
+        <title>.:: FOOTPRINT :: Contra el Abandono</title>
 
         {!!Html::style("https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700")!!}
         <!--CSS============================================= -->
@@ -20,7 +20,7 @@
         {!!Html::style("animalshelter/css/font-awesome.min.css")!!}
         {!!Html::style("animalshelter/css/bootstrap.css")!!}
         {!!Html::style("animalshelter/css/magnific-popup.css")!!}
-        {!!Html::style("animalshelter/css/nice-select.css")!!}                            
+        {!!Html::style("animalshelter/css/nice-select.css")!!}
         {!!Html::style("animalshelter/css/animate.min.css")!!}
         {!!Html::style("animalshelter/css/owl.carousel.css")!!}
         {!!Html::style("animalshelter/css/main.css")!!}

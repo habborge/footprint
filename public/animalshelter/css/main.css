@@ -4,7 +4,7 @@
 /* Mobile Layout: 320px */
 /* Wide Mobile Layout: 480px */
 /* =================================== */
-/*  Basic Style 
+/*  Basic Style
 /* =================================== */
 ::-moz-selection {
   /* Code for Firefox */
@@ -2237,7 +2237,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 .section-gap {
   padding: 120px 0;
 }
-
+.section-gap2 {
+    padding: 50px 0;
+  }
 .section-title {
   padding-bottom: 30px;
 }
@@ -2495,7 +2497,9 @@ body.mobile-nav-active #mobile-nav-toggle {
     text-align: center;
   }
 }
-
+.home-about-area .overlay-bg {
+    background-color: rgba(250, 183, 0, 0.75);
+  }
 .home-about-left img {
   width: 100%;
 }
