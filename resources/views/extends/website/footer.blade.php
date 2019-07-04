@@ -1,12 +1,12 @@
-<!-- start footer Area -->		
+<!-- start footer Area -->
 <footer class="footer-area">
 	<div class="container">
 		<div class="row pt-120 pb-80">
 			<div class="col-lg-4 col-md-6">
 				<div class="single-footer-widget">
-					<h6>About Us</h6>
+					<h6>Nosotros</h6>
 					<p>
-						Few would argue that, despite the advanc ements off eminism over the past three decades, women still face a double standard when it comes to their behavior. While men’s borderline-inappropriate behavior. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Footprints es un proyecto que tiene como propósito contribuir con la disminución del abandono de animales domésticos en Colombia, mediante el desarrollo de una plataforma tecnológica que permita a las personas la adopción, apadrinamiento, donaciones, control, seguimiento, y Gestión de búsquedas por pérdida o abandono de mascotas.
 					</p>
 				</div>
 			</div>
@@ -15,19 +15,19 @@
 					<h6>Useful Links</h6>
 					<div class="row">
 						<ul class="col footer-nav">
-							<li><a href="#">Home</a></li>
-							<li><a href="#">Service</a></li>
-							<li><a href="#">About</a></li>
-							<li><a href="#">Case Study</a></li>
+							<li><a href="#">Inicio</a></li>
+							<li><a href="#">Nosotros</a></li>
+							<li><a href="#">Mascotas</a></li>
+							<li><a href="#">Se Voluntario</a></li>
 						</ul>
 						<ul class="col footer-nav">
-							<li><a href="#">Pricing</a></li>
-							<li><a href="#">Team</a></li>
-							<li><a href="#">Blog</a></li>
-						</ul>									
+							<li><a href="#">Adopta</a></li>
+							<li><a href="#">Apadrina</a></li>
+							<li><a href="#">Contactanos</a></li>
+						</ul>
 					</div>
 				</div>
-			</div>						
+			</div>
 			<div class="col-lg-4  col-md-6">
 				<div class="single-footer-widget mail-chimp">
 					<h6 class="mb-20">Contact Us</h6>
@@ -41,7 +41,7 @@
 								<p>
 									4343 Hinkle Deegan Lake Road
 								</p>
-							</div>	
+							</div>
 						</li>
 						<li class="flex-row d-flex">
 							<div class="icon">
@@ -52,7 +52,7 @@
 								<p>
 									Mon to Fri 9am to 6 pm
 								</p>
-							</div>	
+							</div>
 						</li>
 						<li class="flex-row d-flex">
 							<div class="icon">
@@ -63,18 +63,18 @@
 								<p>
 									Send us your query anytime!
 								</p>
-							</div>	
-						</li>																		
+							</div>
+						</li>
 					</ul>
 				</div>
-			</div>						
+			</div>
 		</div>
 	</div>
 	<div class="copyright-text">
 		<div class="container">
 			<div class="row footer-bottom d-flex justify-content-between">
 				<p class="col-lg-8 col-sm-6 footer-text m-0 text-white"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-					Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+					Copyright ©2019 Todos los derechos reservados
 					<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
 					<div class="col-lg-4 col-sm-6 footer-social">
 						<a href="#"><i class="fa fa-facebook"></i></a>
@@ -82,22 +82,22 @@
 						<a href="#"><i class="fa fa-dribbble"></i></a>
 						<a href="#"><i class="fa fa-behance"></i></a>
 					</div>
-				</div>						
+				</div>
 			</div>
 		</div>
 	</footer>
-	<!-- End footer Area -->	
+	<!-- End footer Area -->
 
 	{!!Html::script("https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js")!!}
 	{!!Html::script("animalshelter/js/vendor/jquery-2.2.4.min.js")!!}
-	{!!Html::script("animalshelter/js/vendor/bootstrap.min.js")!!}			
+	{!!Html::script("animalshelter/js/vendor/bootstrap.min.js")!!}
 	{!!Html::script("https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA")!!}
-	{!!Html::script("animalshelter/js/easing.min.js")!!}			
+	{!!Html::script("animalshelter/js/easing.min.js")!!}
 	{!!Html::script("animalshelter/js/hoverIntent.js")!!}
-	{!!Html::script("animalshelter/js/superfish.min.js")!!}	
+	{!!Html::script("animalshelter/js/superfish.min.js")!!}
 	{!!Html::script("animalshelter/js/jquery.ajaxchimp.min.js")!!}
-	{!!Html::script("animalshelter/js/jquery.magnific-popup.min.js")!!}	
-	{!!Html::script("animalshelter/js/owl.carousel.min.js")!!}						
-	{!!Html::script("animalshelter/js/jquery.nice-select.min.js")!!}							
-	{!!Html::script("animalshelter/js/mail-script.js")!!}	
-	{!!Html::script("animalshelter/js/main.js")!!}	
+	{!!Html::script("animalshelter/js/jquery.magnific-popup.min.js")!!}
+	{!!Html::script("animalshelter/js/owl.carousel.min.js")!!}
+	{!!Html::script("animalshelter/js/jquery.nice-select.min.js")!!}
+	{!!Html::script("animalshelter/js/mail-script.js")!!}
+	{!!Html::script("animalshelter/js/main.js")!!}
