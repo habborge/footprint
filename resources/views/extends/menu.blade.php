@@ -29,14 +29,18 @@
 				</ul>
 			</li>
 
-			
+
 			<li class="{{ Request::is( 'dashboard/team/unilevel') ? 'active' : '' }} nav-item">
 				<a href="/dashboard/team/unilevel"><i class="la ft-users"></i><span class="menu-title" data-i18n="nav.dash.main">Equipo</span></a>
 			</li>
 
 
+			<li class="{{ Request::is( 'dashboard/transactions/earnings') ? 'active' : '' }} nav-item">
+				<a href="/dashboard/transactions/earnings"><i class="la la-money"></i><span class="menu-title" data-i18n="nav.dash.main">Incentivos</span></a>
+			</li>
 
-			<li class=" nav-item"><a href="/"><i class="la la-money"></i><span class="menu-title" data-i18n="nav.dash.settings">Comisiones de Venta</span></a>
+
+			{{-- <li class=" nav-item"><a href="/"><i class="la la-money"></i><span class="menu-title" data-i18n="nav.dash.settings">Incentivos</span></a>
 				<ul class="menu-content">
 					<li class="{{ Request::is( 'dashboard/transactions/history') ? 'active' : '' }}"><a class="menu-item" href="/dashboard/transactions/history" data-i18n="nav.dash.ecommerce">Historial de Comisiones</a>
 					</li>
@@ -49,7 +53,7 @@
 					<li class="{{ Request::is( 'dashboard/withdrawal/new') ? 'active' : '' }}"><a class="menu-item" href="/dashboard/withdrawal/new" data-i18n="nav.dash.ecommerce">Nuevo Cobro</a>
 					</li>
 				</ul>
-			</li>
+			</li> --}}
 
 			<li class=" nav-item"><a href="/"><i class="la la-gear"></i><span class="menu-title" data-i18n="nav.dash.settings">Ajustes</span></a>
 				<ul class="menu-content">
