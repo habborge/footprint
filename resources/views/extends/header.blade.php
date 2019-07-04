@@ -58,7 +58,7 @@
 				<li class="dropdown dropdown-user nav-item">
 					<a class="dropdown-toggle nav-link dropdown-user-link" href="#" data-toggle="dropdown">
 						<span class="">Hola,
-							<span class="user-name text-bold-700"> {{ Auth::user()->username }}</span>
+							<span class="user-name text-bold-700"> {{ Auth::user()->name }}</span>
 							<i class="ft-chevron-down" style="margin-left: 2px;"></i>
 						</span>
 						<span class="avatar avatar-online">

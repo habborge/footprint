@@ -29,18 +29,12 @@
 				</ul>
 			</li>
 
-
-			<li class=" nav-item"><a href="/"><i class="la ft-users"></i><span class="menu-title" data-i18n="nav.dash.settings">Organización</span></a>
-				<ul class="menu-content">
-					<li class="{{ Request::is( 'dashboard/team/directs') ? 'active' : '' }} nav-item">
-						<a href="/dashboard/team/directs"><i class="la la-group"></i><span class="menu-title" data-i18n="nav.dash.main">Clientes</span></a>
-					</li>
-
-					<li class="nav-item {{ Request::is( 'dashboard/team/unilevel') ? 'active' : '' }}">
-						<a href="/dashboard/team/unilevel"><i class="la ft-users"></i><span class="menu-title" data-i18n="nav.dash.settings">Equipo Unilevel</span></a>
-					</li>
-				</ul>
+			
+			<li class="{{ Request::is( 'dashboard/team/unilevel') ? 'active' : '' }} nav-item">
+				<a href="/dashboard/team/unilevel"><i class="la ft-users"></i><span class="menu-title" data-i18n="nav.dash.main">Equipo</span></a>
 			</li>
+
+
 
 			<li class=" nav-item"><a href="/"><i class="la la-money"></i><span class="menu-title" data-i18n="nav.dash.settings">Comisiones de Venta</span></a>
 				<ul class="menu-content">
@@ -56,7 +50,7 @@
 					</li>
 				</ul>
 			</li>
-			
+
 			<li class=" nav-item"><a href="/"><i class="la la-gear"></i><span class="menu-title" data-i18n="nav.dash.settings">Ajustes</span></a>
 				<ul class="menu-content">
 					<li class="{{ Request::is( 'dashboard/settings/profile') ? 'active' : '' }}"><a class="menu-item" href="/dashboard/settings/profile">Mi Perfil</a>

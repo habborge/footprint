@@ -70,6 +70,7 @@ Route::group([
 
 
 	Route::get('/password_reset', 'ChangePasswordController@index')->name('password_reset');
+	Route::get('/team/unilevel',  'TeamController@unilevel');
 
 });
 

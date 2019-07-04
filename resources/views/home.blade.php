@@ -37,12 +37,12 @@
         text-transform: unset;
     }
     #rango{
-     display: inline-block;
-     font-weight: bold;
-     color: #5a93ff;
- }
+       display: inline-block;
+       font-weight: bold;
+       color: #5a93ff;
+   }
 
- .btn_A{
+   .btn_A{
     margin-left: 15px;
     font-weight: bold;
     margin-bottom: 0px !important;
@@ -158,7 +158,7 @@
                         <div class="media d-flex">
                             <div class="media-body text-left">
                                 <h3 class="green_c3">2</h3>
-                                <h6>Mis Indirectos</h6>
+                                <h6>Mis Mascotas</h6>
                             </div>
                             <div>
                                 <i class="ft-users green_c3 font-large-2 float-right"></i>
@@ -218,39 +218,25 @@
 
 
 
+
         </div>
     </div>
     <!-- Resume -->
-    {{-- <div class="col-xl-12 col-lg-12 col-12">
+    <div class="col-xl-12 col-lg-12 col-12">
 
         <div class="card pull-up">
             <div class="card-content">
+                <div class="card-header">
+                    <h4 class="card-title">Mis mascotas: </h4>
+                </div>
                 <div class="card-body">
 
-                    <div class="row mt-1">
-                        <div class="col-3 text-center">
-                            <h6 class="text-muted">Referidos</h6>
-                            <h2 class="block font-weight-normal">{{ $numberOfDirect }}</h2>
-                        </div>
-                        <div class="col-3 text-center">
-                            <h6 class="text-muted">Total generado</h6>
-                            <h2 class="block font-weight-normal">{{ $totalEarning }}</h2>
-
-                        </div>
-                        <div class="col-3 text-center">
-                            <h6 class="text-muted">Total cobrado</h6>
-                            <h2 class="block font-weight-normal">{{ $total_cobrado }} COP</h2>
-
-                        </div>
-                        <div class="col-3 text-center">
-                            <h6 class="text-muted">Retiros realizados</h6>
-                            <h2 class="block font-weight-normal">{{ $cantidad_retiros }}</h2>
-                        </div>
-                    </div>
+                    <img class="img-fluid" src="{{ Request::root() }}/animalshelter/img/c1.jpg" alt="">
+                    <img class="img-fluid" src="{{ Request::root() }}/animalshelter/img/c2.jpg" alt="">
                 </div>
             </div>
         </div>
-    </div> --}}
+    </div>
 </div>
 
 
