@@ -1,8 +1,8 @@
-<footer class="footer footer-static footer-light navbar-border navbar-shadow" style="background: #82c544;
+<footer class="footer footer-static footer-light navbar-border navbar-shadow" style="background: #fab700;
 color: #fff;">
 <p class="clearfix blue-grey lighten-2 text-sm-center mb-0 px-2" >
 	<span class="float-md-left d-block d-md-inline-block" style="color: #fff !important;">Copyright &copy; 2019 <a class="text-bold-800 grey darken-2" href=""
-		target="_blank" style="color: #fff !important;font-weight: bold;">Pcnetwork </a>, Todos los derechos reservados. </span>
+		target="_blank" style="color: #fff !important;font-weight: bold;">Footprint </a>, Todos los derechos reservados. </span>
 		
 	</p>
 </footer>

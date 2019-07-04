@@ -2,7 +2,7 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
   <!-- Title -->
-  <title>Pcnetwork</title>
+  <title>Footprint</title>
   <meta name="csrf-token" content="{{ csrf_token() }}">
   <!-- Required Meta Tags Always Come First -->
   <meta charset="utf-8">

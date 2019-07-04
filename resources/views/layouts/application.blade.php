@@ -8,7 +8,7 @@
 	<!-- CSRF Token -->
 	<meta name="csrf-token" content="{{ csrf_token() }}">
 	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-	<title>Pcnetwork - Mi cuenta</title>
+	<title>Footprint - Mi cuenta</title>
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Quicksand:300,400,500,700"
 	rel="stylesheet">
 	{!!Html::style("https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome.min.css")!!}
@@ -94,7 +94,7 @@
 		}
 
 	</style>
-	{!! NoCaptcha::renderJs() !!}
+	{{-- {!! NoCaptcha::renderJs() !!} --}}
 </head>
 <body class="vertical-layout vertical-menu 2-columns   menu-expanded fixed-navbar" data-open="click" data-menu="vertical-menu" data-col="2-columns">
 

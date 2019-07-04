@@ -1,6 +1,6 @@
 <style type="text/css" media="screen">
 	.bg-info {
-		background-color: rgba(108,187,35,0.85) !important;
+		background-color: #313235 !important;
 	}
 	.brand-logo-mini{
 		width: 48px;
@@ -21,7 +21,7 @@
 </style>
 <nav class="header-navbar navbar-expand-md navbar navbar-with-menu navbar-without-dd-arrow fixed-top navbar-semi-light bg-info navbar-shadow">
 	<div class="navbar-wrapper">
-		<div class="navbar-header" style="background: #313235">
+		<div class="navbar-header" style="background: #fab700;">
 			<ul class="nav navbar-nav flex-row">
 				<li class="nav-item mobile-menu d-md-none mr-auto"><a class="nav-link nav-menu-main menu-toggle hidden-xs" href="#"><i class="ft-menu font-large-1"></i></a></li>
 				<li class="nav-item">
@@ -32,8 +32,8 @@
 						}
 					</style>
 					<a class="navbar-brand" href="/">
-						<img class="brand-logo-mini logoo" alt="modern admin logo" src="/images/PCNETWORK.png"> 
-						<img class="brand-logo brand-text logoo" alt="modern admin logo" src="/images/PCNETWORK.png">
+						<img class="brand-logo-mini logoo" alt="modern admin logo" src="/images/logo.png"> 
+						<img class="brand-logo brand-text logoo" alt="modern admin logo" src="/images/logo.png">
 					</a>
 				</li>
 				<li class="nav-item d-md-none">
@@ -62,7 +62,7 @@
 							<i class="ft-chevron-down" style="margin-left: 2px;"></i>
 						</span>
 						<span class="avatar avatar-online">
-							<img class="imgAvatar" src="{{ auth()->user()->getAvatarUrl() }}" alt="avatar" style="margin-top: -8px;width: 34px;height: 34px;"><i></i></span>
+							<img class="imgAvatar" src="/images/man.png" alt="avatar" style="margin-top: -8px;width: 34px;height: 34px;"><i></i></span>
 						</a>
 
 						<div class="dropdown-menu dropdown-menu-right">
