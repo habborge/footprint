@@ -56,54 +56,36 @@
 					</li>
 				</ul>
 			</li>
-			<li class=" nav-item"><a href="/"><i class="ft-shield"></i><span class="menu-title" data-i18n="nav.dash.settings">Legalidad</span></a>
+			
+			<li class=" nav-item"><a href="/"><i class="la la-gear"></i><span class="menu-title" data-i18n="nav.dash.settings">Ajustes</span></a>
 				<ul class="menu-content">
-					<li class="{{ Request::is( 'dashboard/legality/terms-and-conditions') ? 'active' : '' }}"><a class="menu-item" href="/dashboard/legality/terms-and-conditions">Terminos y Condiciones</a>
+					<li class="{{ Request::is( 'dashboard/settings/profile') ? 'active' : '' }}"><a class="menu-item" href="/dashboard/settings/profile">Mi Perfil</a>
 					</li>
-					<li class="{{ Request::is( 'dashboard/legality/promise-to-purchase') ? 'active' : '' }}"><a class="menu-item" href="/dashboard/legality/promise-to-purchase">Promesa de Compra-Venta</a>
+					<li class="{{ Request::is( 'dashboard/password_reset') ? 'active' : '' }}"><a class="menu-item" href="/dashboard/password_reset" data-i18n="nav.dash.ecommerce">Cambiar contraseña</a>
 					</li>
-				{{-- 	<li class="{{ Request::is( 'dashboard/legality/insurance') ? 'active' : '' }}"><a class="menu-item" href="/dashboard/legality/insurance">Seguro Deudor</a>
-				</li> --}}
-				{{-- 	<li class="{{ Request::is( 'dashboard/legality/contract') ? 'active' : '' }}"><a class="menu-item" href="/dashboard/legality/contract">Contrato</a>
-				</li> --}}
 
-			</ul>
-		</li>
-		<li class=" nav-item"><a href="/"><i class="la la-gear"></i><span class="menu-title" data-i18n="nav.dash.settings">Ajustes</span></a>
-			<ul class="menu-content">
-				<li class="{{ Request::is( 'dashboard/settings/promise-verification') ? 'active' : '' }}"><a class="menu-item" href="/dashboard/settings/promise-verification">Verificar Promesa de Compra-Venta</a>
-				</li>
-				<li class="{{ Request::is( 'dashboard/settings/document-verification') ? 'active' : '' }} {{ Request::is( 'dashboard/settings/rut-verification') ? 'active' : '' }}"><a class="menu-item" href="/dashboard/settings/document-verification">Verificar Documentación</a>
-				</li>
-				<li class="{{ Request::is( 'dashboard/settings/bank/account') ? 'active' : '' }}"><a class="menu-item" href="/dashboard/settings/bank/account">Mi Cuenta Bancaria</a>
-				</li>
-				<li class="{{ Request::is( 'dashboard/settings/profile') ? 'active' : '' }}"><a class="menu-item" href="/dashboard/settings/profile">Mi Perfil</a>
-				</li>
-				<li class="{{ Request::is( 'dashboard/password_reset') ? 'active' : '' }}"><a class="menu-item" href="/dashboard/password_reset" data-i18n="nav.dash.ecommerce">Cambiar contraseña</a>
-				</li>
+				</ul>
+			</li>
 
-			</ul>
+
+			<li class=" nav-item">
+				<a class="dropdown-item" href="{{ route('logout') }}"
+				onclick="event.preventDefault();
+				document.getElementById('logout-form2').submit();">
+				<i class="ft-power"></i>{{ __('Cerrar sesión') }}
+			</a>
+
+			<form id="logout-form2" action="{{ route('logout') }}" method="POST" style="display: none;">
+				@csrf
+			</form>
+
 		</li>
 
 
-		<li class=" nav-item">
-			<a class="dropdown-item" href="{{ route('logout') }}"
-			onclick="event.preventDefault();
-			document.getElementById('logout-form2').submit();">
-			<i class="ft-power"></i>{{ __('Cerrar sesión') }}
-		</a>
-
-		<form id="logout-form2" action="{{ route('logout') }}" method="POST" style="display: none;">
-			@csrf
-		</form>
-
-	</li>
 
 
 
 
-
-
-</ul>
+	</ul>
 </div>
 </div>

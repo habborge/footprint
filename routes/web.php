@@ -65,6 +65,12 @@ Route::group([
 
 ], function() {
 	Route::get('/home', 'HomeController@index')->name('home');
+
+	Route::get('/settings/profile', 'MemberController@profile');
+
+
+	Route::get('/password_reset', 'ChangePasswordController@index')->name('password_reset');
+
 });
 
 Auth::routes();
