@@ -13,11 +13,49 @@
 
 Route::get('/', function () {
 	return view('index');
-	
+
 });
-Route::get('/index', function(){
-	return view('welcome');
+Route::get('/about-us', function () {
+	return view('about-us');
+
 });
+Route::get('/pets', function () {
+	return view('pets');
+
+});
+Route::get('/food', function () {
+	return view('food');
+
+});
+Route::get('/accessories', function () {
+	return view('accessories');
+
+});
+Route::get('/voluntary', function () {
+	return view('voluntary');
+
+});
+Route::get('/veterinary', function () {
+	return view('veterinary');
+
+});
+Route::get('/hairdressing', function () {
+	return view('hairdressing');
+
+});
+Route::get('/training', function () {
+	return view('training');
+
+});
+Route::get('/nursery', function () {
+	return view('nursery');
+
+});
+Route::get('/contact', function () {
+	return view('contact');
+
+});
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

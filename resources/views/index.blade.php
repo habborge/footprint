@@ -7,15 +7,14 @@
         <div class="row fullscreen d-flex align-items-center justify-content-start">
             <div class="banner-content col-lg-8 col-md-12">
                 <h1 class="text-uppercase">
-                    Adopt Us. <br>
-                    We need your help.      
+                    Adopta una Mascota <br>
+                    Alguien te Necesita!!
                 </h1>
                 <p class="text-white sub-head">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod temp
-                    or incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
+                    El propósito de FOOTPRINT es aumentar la adopción y apadrinamiento de animales domésticos abandonados.
                 </p>
-                <a href="#" class="primary-btn header-btn text-uppercase">Find a pet to adopt</a>
-            </div>                                          
+                <a href="#" class="primary-btn header-btn text-uppercase">Encuentra a tu mascota</a>
+            </div>
         </div>
     </div>
 </section>
@@ -37,18 +36,6 @@
                 </div>
                 <div class="single-image-carusel">
                     <img class="img-fluid" src="./animalshelter/img/c4.jpg" alt="">
-                </div>  
-                <div class="single-image-carusel">
-                    <img class="img-fluid" src="./animalshelter/img/c1.jpg" alt="">
-                </div>
-                <div class="single-image-carusel">
-                    <img class="img-fluid" src="./animalshelter/img/c2.jpg" alt="">
-                </div>
-                <div class="single-image-carusel">
-                    <img class="img-fluid" src="./animalshelter/img/c3.jpg" alt="">
-                </div>
-                <div class="single-image-carusel">
-                    <img class="img-fluid" src="./animalshelter/img/c4.jpg" alt="">
                 </div>
                 <div class="single-image-carusel">
                     <img class="img-fluid" src="./animalshelter/img/c1.jpg" alt="">
@@ -61,10 +48,22 @@
                 </div>
                 <div class="single-image-carusel">
                     <img class="img-fluid" src="./animalshelter/img/c4.jpg" alt="">
-                </div>                                                          
+                </div>
+                <div class="single-image-carusel">
+                    <img class="img-fluid" src="./animalshelter/img/c1.jpg" alt="">
+                </div>
+                <div class="single-image-carusel">
+                    <img class="img-fluid" src="./animalshelter/img/c2.jpg" alt="">
+                </div>
+                <div class="single-image-carusel">
+                    <img class="img-fluid" src="./animalshelter/img/c3.jpg" alt="">
+                </div>
+                <div class="single-image-carusel">
+                    <img class="img-fluid" src="./animalshelter/img/c4.jpg" alt="">
+                </div>
             </div>
         </div>
-    </div>  
+    </div>
 </section>
 <!-- End image-carusel Area -->
 
@@ -78,9 +77,9 @@
             </div>
             <div class="col-lg-4 callto-top-right">
                 <a href="#" class="primary-btn">Fill Adoption Form</a>
-            </div>                          
+            </div>
         </div>
-    </div>  
+    </div>
 </section>
 <!-- End callto-top Area -->
 
@@ -88,7 +87,7 @@
 <!-- Start home-about Area -->
 <section class="home-about-area">
     <div class="container-fluid">
-        <div class="row align-items-center">    
+        <div class="row align-items-center">
             <div class="col-lg-6 home-about-left no-padding">
                 <img src="./animalshelter/img/about-img.jpg" alt="">
             </div>
@@ -104,7 +103,7 @@
                 <a href="#" class="primary-btn text-uppercase">get details</a>
             </div>
         </div>
-    </div>  
+    </div>
 </section>
 <!-- End home-about Area -->
 
@@ -122,11 +121,11 @@
                     <h4>Watch this video how they live here</h4>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.
-                    </p>                                
+                    </p>
                 </div>
             </div>
         </div>
-    </div>  
+    </div>
 </section>
 <!-- End video Area -->
 
@@ -141,7 +140,7 @@
                     <p>Who are in extremely love with eco friendly system.</p>
                 </div>
             </div>
-        </div>                  
+        </div>
         <div class="row">
             <div class="col-lg-3 col-md-6">
                 <div class="single-process">
@@ -194,9 +193,9 @@
                         inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct.
                     </p>
                 </div>
-            </div>                                                                      
+            </div>
         </div>
-    </div>  
+    </div>
 </section>
 <!-- End process Area -->
 
@@ -211,7 +210,7 @@
                     <p>Who are in extremely love with eco friendly system.</p>
                 </div>
             </div>
-        </div>                      
+        </div>
         <div class="row">
             <div class="active-testimonial-carusel">
                 <div class="single-testimonial item">
@@ -243,7 +242,7 @@
                     <p>
                         CEO at Google
                     </p>
-                </div>  
+                </div>
                 <div class="single-testimonial item">
                     <img class="mx-auto" src="./animalshelter/img/t1.png" alt="">
                     <p class="desc">
@@ -273,7 +272,7 @@
                     <p>
                         CEO at Google
                     </p>
-                </div>                                                          
+                </div>
                 <div class="single-testimonial item">
                     <img class="mx-auto" src="./animalshelter/img/t1.png" alt="">
                     <p class="desc">
@@ -303,17 +302,17 @@
                     <p>
                         CEO at Google
                     </p>
-                </div>                                                      
+                </div>
             </div>
         </div>
-    </div>  
+    </div>
 </section>
-<!-- End testomial Area -->                     
+<!-- End testomial Area -->
 
 <!-- Start calltoaction Area -->
 <section class="calltoaction-area section-gap relative">
     <div class="container">
-        <div class="overlay overlay-bg"></div>                      
+        <div class="overlay overlay-bg"></div>
         <div class="row align-items-center justify-content-center">
             <h1 class="text-white">Want to help? Become a Volunteer</h1>
             <p class="text-white">
@@ -325,7 +324,7 @@
                 <a href="#" class="primary-btn text-uppercase">Register now</a>
             </div>
         </div>
-    </div>  
+    </div>
 </section>
 <!-- End calltoaction Area -->
 @endsection
