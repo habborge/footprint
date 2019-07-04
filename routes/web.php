@@ -10,7 +10,9 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+Route::get('/home', function(){
+	return redirect('/dashboard/home');
+});
 Route::get('/', function () {
 	return view('index');
 
@@ -54,6 +56,25 @@ Route::get('/nursery', function () {
 Route::get('/contact', function () {
 	return view('contact');
 
+});
+
+Route::group([
+
+	'prefix' => 'dashboard',
+	'middleware' => ['auth']
+
+], function() {
+	Route::get('/home', 'HomeController@index')->name('home');
+
+	Route::get('/settings/profile', 'MemberController@profile');
+
+
+	Route::get('/password_reset', 'ChangePasswordController@index')->name('password_reset');
+	Route::get('/team/unilevel',  'TeamController@unilevel');
+
+
+	Route::get('/transactions/earnings', 'TransactionController@index')->name('earnings');
+	Route::post('/transactions/earnings/show', 'TransactionController@getEarningsByUser');
 });
 
 Auth::routes();
