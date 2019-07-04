@@ -1,0 +1,160 @@
+.header-navbar .navbar-header .navbar-brand {
+	padding: 8px 0 !important;
+	margin-right: 0;
+}
+
+
+.paginate_button {
+	margin-left: 10px;
+	margin-right: 10px;
+
+}
+
+.card-title{
+	text-transform: capitalize;
+}
+.hide{
+	display: none;
+}
+
+
+.bonus-message-color{
+
+	background-color: #FFECEF;
+	color: #49000A;
+
+}
+
+
+
+#content_loader{
+	display: none;
+}
+#mensaje_btn_code{
+	display: none;
+}
+#btn_enviar{
+	display: none;
+}
+#loading_min{
+	display: none;
+}
+
+.main-menu.menu-light .navigation>li.active>a {
+	background: #80c443 !important;
+	color: #ffffff !important;
+}
+.main-menu.menu-light .navigation>li ul .active>a {
+	background: #80c443 !important;
+	color: #ffffff !important;
+}
+
+
+/* ranking img */
+.ranking{
+	width: 100px;
+	margin: 10px;
+}
+
+/*home card user info */
+.card_circle{
+	border: 5px solid #FFF;
+}
+.card_details{
+	position: absolute;
+	margin-top: 50px;
+}
+.color_text_white{
+	color: white;
+}
+.right-radius-bottom{
+	border-bottom-right-radius: 20px;
+}
+.height-135{
+	height: 135px;
+}
+
+/* terms & conditions - Register, backoffice- terms, promise, contract */
+div.scroll_vertical {
+	height: 300px;
+	width: 100%;
+	overflow: auto;
+	background-color: #fff;
+	padding: .5rem;
+	border: 2px solid #D1D5EA;
+	margin-bottom: 15px;
+}
+
+.height_terms{
+	height: 400px !important;
+}
+
+.title_terms{
+	background: #D1D5EA;
+	font-size: 18px;
+	padding: 10px 15px;
+}
+.title_h4{
+	margin-top: 30px;
+	text-align: center;
+}
+
+
+/* */
+.load,.loadhome {
+	z-index: 1000;
+	border: none;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	background-color: #ffffffd4;
+	cursor: wait;
+	position: absolute;
+}
+.divLoadsniper{
+	font-size: 76px !important;
+	position: absolute;
+	left: 45%;
+	top: 36%;
+	color: #82c544 !important;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+}
+
+.blue_c{
+	color: #41b3fb !important;
+}
+.green_c3{
+	color: #d67a5d!important;
+}
+.green_c2{
+	color: #4CAF50 !important;
+}
+
+/* legality */
+.pcnetwork{
+	color: #82c544;
+}
+.website{
+	color: #1375b3;
+	text-decoration: underline;
+}
+
+.bottom-line-promise{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.bottom-line-promise2{
+	margin-top: 40px;
+	margin-bottom: 60px;
+}
+
+#pago_payu{
+	display: none;
+}
+.text-m{
+	margin-top: 0 !important;
+}
