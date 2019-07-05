@@ -75,6 +75,10 @@ Route::group([
 	Route::get('/ubicacion', 'HomeController@ubicacion');
 
 
+	Route::get('/donaciones/all', 'DonacionesController@index')->name('DonacionesController');
+	Route::post('/donaciones/all/show', 'DonacionesController@getDonacionesByUser');
+
+
 	Route::get('/transactions/earnings', 'TransactionController@index')->name('earnings');
 	Route::post('/transactions/earnings/show', 'TransactionController@getEarningsByUser');
 });

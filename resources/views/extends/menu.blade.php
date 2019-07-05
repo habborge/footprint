@@ -15,14 +15,14 @@
 
 			<li class=" nav-item"><a href="/"><i class="la la-calendar"></i><span class="menu-title" data-i18n="nav.dash.settings">Mis Donaciones</span></a>
 				<ul class="menu-content">
-					<li class="{{ Request::is( 'dashboard/payments') ? 'active' : '' }} nav-item">
-						<a href="/dashboard/payments">
+					<li class="{{ Request::is( 'dashboard/donaciones/new') ? 'active' : '' }} nav-item">
+						<a href="/ddashboard/donaciones/new">
 							<span class="menu-title" data-i18n="nav.dash.main">Nueva Donación</span>
 						</a>
 					</li>
 
-					<li class="nav-item {{ Request::is( 'dashboard/payments/all') ? 'active' : '' }}">
-						<a href="/dashboard/payments/all">
+					<li class="nav-item {{ Request::is( 'dashboard/donaciones/all') ? 'active' : '' }}">
+						<a href="/dashboard/donaciones/all">
 							<span class="menu-title" data-i18n="nav.dash.settings">Historial</span>
 						</a>
 					</li>

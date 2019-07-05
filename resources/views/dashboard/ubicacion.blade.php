@@ -47,7 +47,7 @@
     <div class="card pull-up">
         <div class="card-content">
             <div class="card-header">
-                <h4 class="card-title">Mis mascotas: </h4>
+                <h4 class="card-title">Mi Mascota: </h4>
             </div>
             <div class="card-body">
 
