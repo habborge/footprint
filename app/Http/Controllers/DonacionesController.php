@@ -12,6 +12,9 @@ class DonacionesController extends Controller
 		return view('dashboard.donaciones.history');
 	}
 
+	public function new(Request $request){
+		return view('dashboard.donaciones.new');
+	}
 
 	public function getDonacionesByUser(Request $request){
 		$columns = array(

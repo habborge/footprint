@@ -16,7 +16,7 @@
 			<li class=" nav-item"><a href="/"><i class="la la-calendar"></i><span class="menu-title" data-i18n="nav.dash.settings">Mis Donaciones</span></a>
 				<ul class="menu-content">
 					<li class="{{ Request::is( 'dashboard/donaciones/new') ? 'active' : '' }} nav-item">
-						<a href="/ddashboard/donaciones/new">
+						<a href="/dashboard/donaciones/new">
 							<span class="menu-title" data-i18n="nav.dash.main">Nueva Donación</span>
 						</a>
 					</li>
