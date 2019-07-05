@@ -266,7 +266,7 @@
                 </p>
                 <div class="buttons d-flex flex-row">
                     <a href="/voluntary" class="primary-btn text-uppercase">Registrate ahora</a>
-                    <a href="#" class="primary-btn text-uppercase">Conoce más</a>
+                    <a href="/incentive-plan" class="primary-btn text-uppercase">Conoce plan de Incentivos</a>
                 </div>
             </div>
         </div>

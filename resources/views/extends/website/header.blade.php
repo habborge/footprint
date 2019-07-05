@@ -2,14 +2,14 @@
     <div class="container main-menu">
       <div class="row align-items-center justify-content-between d-flex">
         <div id="logo">
-          <a href="index.html"><img src="animalshelter/img/logo.png" alt="" title="" /></a>
+          <a href="/"><img src="animalshelter/img/logo.png" alt="" title="" /></a>
         </div>
         <nav id="nav-menu-container">
           <ul class="nav-menu">
             <li class="menu-active"><a href="/">Inicio</a></li>
             <li><a href="/about-us">Nosotros</a></li>
             <li><a href="/pets">Mascotas</a></li>
-            <li><a href="/voluntary">Se Voluntario</a></li>
+            <li><a href="/voluntary">Voluntarios</a></li>
             <li class="menu-has-children"><a href="">Productos</a>
               <ul>
                 <li><a href="/food">Alimentos</a></li>
