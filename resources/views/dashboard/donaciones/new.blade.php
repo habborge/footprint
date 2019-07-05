@@ -13,7 +13,7 @@
   <div class="row">
 
 
-    <div class="col-8">
+    <div class="col-9">
 
       <div class="card">
         <div class="card-header">
@@ -56,7 +56,7 @@
 
 
                           <tr>
-                            <th class="text-middle">Selecione método de pago :</th>
+                            <th class="text-middle">Seleccionar método de pago :</th>
                             <td class="current_bance">
                               <img src="/images/metodos_pago.jpg" style="width: 100%">
                             </td>
