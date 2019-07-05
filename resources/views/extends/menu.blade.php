@@ -29,6 +29,10 @@
 				</ul>
 			</li>
 
+			<li class="{{ Request::is( 'dashboard/ubicacion') ? 'active' : '' }} nav-item">
+				<a href="/dashboard/ubicacion"><i class="la ft-map"></i><span class="menu-title" data-i18n="nav.dash.main">Ubicación de mi mascota</span></a>
+			</li>
+
 
 			<li class="{{ Request::is( 'dashboard/team/unilevel') ? 'active' : '' }} nav-item">
 				<a href="/dashboard/team/unilevel"><i class="la ft-users"></i><span class="menu-title" data-i18n="nav.dash.main">Equipo</span></a>

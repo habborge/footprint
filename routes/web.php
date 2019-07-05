@@ -72,6 +72,8 @@ Route::group([
 	Route::get('/password_reset', 'ChangePasswordController@index')->name('password_reset');
 	Route::get('/team/unilevel',  'TeamController@unilevel');
 
+	Route::get('/ubicacion', 'HomeController@ubicacion');
+
 
 	Route::get('/transactions/earnings', 'TransactionController@index')->name('earnings');
 	Route::post('/transactions/earnings/show', 'TransactionController@getEarningsByUser');

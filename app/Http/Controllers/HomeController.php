@@ -25,4 +25,14 @@ class HomeController extends Controller
     {
         return view('home');
     }
+
+
+    public function ubicacion()
+    {
+        return view('dashboard.ubicacion',
+            [
+                "unilevel" =>'ok',
+            ]
+        )->render();
+    }
 }
