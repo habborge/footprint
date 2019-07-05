@@ -136,9 +136,9 @@
     <!-- Button -->
     <div class="row align-items-center mb-5">
       <div class="col-6">
-         <span class="small text-muted">No tienes una cuenta?</span>
+        {{--  <span class="small text-muted">No tienes una cuenta?</span>
          <a class="small" href="/register">Registrate</a>
-         <a class="link-muted text-capitalize font-weight-normal" href="/password/reset">Olvidaste tu contraseña?</a>
+         <a class="link-muted text-capitalize font-weight-normal" href="/password/reset">Olvidaste tu contraseña?</a> --}}
      </div>
 
      <div class="col-6 text-right">
