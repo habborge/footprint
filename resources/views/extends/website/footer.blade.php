@@ -6,7 +6,7 @@
 				<div class="single-footer-widget">
 					<h6>Nosotros</h6>
 					<p>
-                            Footprints es un proyecto que tiene como propósito contribuir con la disminución del abandono de animales domésticos en Colombia, mediante el desarrollo de una plataforma tecnológica que permita a las personas la adopción, apadrinamiento, donaciones, control, seguimiento, y Gestión de búsquedas por pérdida o abandono de mascotas.
+						Footprints es un proyecto que tiene como propósito contribuir con la disminución del abandono de animales domésticos en Colombia, mediante el desarrollo de una plataforma tecnológica que permita a las personas la adopción, apadrinamiento, donaciones, control, seguimiento, y Gestión de búsquedas por pérdida o abandono de mascotas.
 					</p>
 				</div>
 			</div>
