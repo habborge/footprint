@@ -57,7 +57,10 @@ Route::get('/contact', function () {
 	return view('contact');
 
 });
+Route::get('/incentive-plan', function () {
+	return view('incentive-plan');
 
+});
 Route::group([
 
 	'prefix' => 'dashboard',
