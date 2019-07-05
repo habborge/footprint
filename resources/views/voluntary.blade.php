@@ -116,7 +116,7 @@
 							</div>
 						</div>
 						<div class="col-6 mb-30">
-							<label for="state">State</label>
+							<label for="state">Estado</label>
 							<div class="select-option" id="service-select">
 								<select>
 									<option data-display="Select State">Seleccione estado</option>
