@@ -37,12 +37,12 @@
         text-transform: unset;
     }
     #rango{
-     display: inline-block;
-     font-weight: bold;
-     color: #5a93ff;
- }
+       display: inline-block;
+       font-weight: bold;
+       color: #5a93ff;
+   }
 
- .btn_A{
+   .btn_A{
     margin-left: 15px;
     font-weight: bold;
     margin-bottom: 0px !important;

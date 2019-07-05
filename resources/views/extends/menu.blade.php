@@ -15,18 +15,22 @@
 
 			<li class=" nav-item"><a href="/"><i class="la la-calendar"></i><span class="menu-title" data-i18n="nav.dash.settings">Mis Donaciones</span></a>
 				<ul class="menu-content">
-					<li class="{{ Request::is( 'dashboard/payments') ? 'active' : '' }} nav-item">
-						<a href="/dashboard/payments">
+					<li class="{{ Request::is( 'dashboard/donaciones/new') ? 'active' : '' }} nav-item">
+						<a href="/dashboard/donaciones/new">
 							<span class="menu-title" data-i18n="nav.dash.main">Nueva Donación</span>
 						</a>
 					</li>
 
-					<li class="nav-item {{ Request::is( 'dashboard/payments/all') ? 'active' : '' }}">
-						<a href="/dashboard/payments/all">
+					<li class="nav-item {{ Request::is( 'dashboard/donaciones/all') ? 'active' : '' }}">
+						<a href="/dashboard/donaciones/all">
 							<span class="menu-title" data-i18n="nav.dash.settings">Historial</span>
 						</a>
 					</li>
 				</ul>
+			</li>
+
+			<li class="{{ Request::is( 'dashboard/ubicacion') ? 'active' : '' }} nav-item">
+				<a href="/dashboard/ubicacion"><i class="la ft-map"></i><span class="menu-title" data-i18n="nav.dash.main">Ubicación de mi mascota</span></a>
 			</li>
 
 
